@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Poppins:wght@300;400;600;700&display=swap");
+/*----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+body .site-content .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+body .site-content .main-content .login-content {
+  position: relative;
+  width: 90%;
+  height: 40em;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 15px #eeeeee;
+          box-shadow: 0px 0px 15px #eeeeee;
+}
+
+body .site-content .main-content .login-content .login-header-content {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+body .site-content .main-content .login-content .login-header-content h1 {
+  position: relative;
+  color: #f79918;
+  font-size: 22px;
+}
+
+body .site-content .main-content .login-content .login-header-content h1::before {
+  color: white;
+  position: absolute;
+  left: 2px;
+  font-weight: 600;
+  content: "MagDesign";
+}
+
+body .site-content .main-content .login-content .login-header-content nav button {
+  padding: 6px 14px;
+  border-radius: 4px;
+  background-color: #f79918;
+  border: none;
+  -webkit-box-shadow: 0px 0px 15px #eeeeee;
+          box-shadow: 0px 0px 15px #eeeeee;
+}
+
+body .site-content .main-content .login-content .login-header-content nav button a {
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+}
+
+body .site-content .main-content .login-content .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+body .site-content .main-content .login-content .login .img-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+
+body .site-content .main-content .login-content .login .img-content img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .site-content .main-content .login-content .login form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+body .site-content .main-content .login-content .login form h1 {
+  margin-bottom: 1em;
+}
+
+body .site-content .main-content .login-content .login form label {
+  padding: 6px 8px;
+  border: 1px solid #d6d6d6;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+body .site-content .main-content .login-content .login form label i {
+  margin-right: 10px;
+}
+
+body .site-content .main-content .login-content .login form label input {
+  outline: none;
+  height: 20px;
+  width: 31em;
+  border: none;
+}
+
+body .site-content .main-content .login-content .login form label input::-webkit-input-placeholder {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+body .site-content .main-content .login-content .login form label input:-ms-input-placeholder {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+body .site-content .main-content .login-content .login form label input::-ms-input-placeholder {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+body .site-content .main-content .login-content .login form label input::placeholder {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+body .site-content .main-content .login-content .login form .forgot-password {
+  width: 28em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+body .site-content .main-content .login-content .login form .forgot-password a {
+  margin-left: auto;
+}
+
+body .site-content .main-content .login-content .login form button {
+  color: white;
+  font-size: 16px;
+  padding: 6px 20px;
+  border-radius: 4px;
+  background-color: #f79918;
+  border: none;
+  -webkit-box-shadow: 0px 0px 15px #eeeeee;
+          box-shadow: 0px 0px 15px #eeeeee;
+}
+/*# sourceMappingURL=loginStyle.css.map */

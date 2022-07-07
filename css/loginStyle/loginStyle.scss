@@ -1,0 +1,157 @@
+@import '../generalStyle/generalStyle.scss';
+
+/*----------------------------------------------------------------------*/
+
+body{
+
+    .site-content{
+
+        .main-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+
+            .login-content{
+                position: relative;
+                width: 90%;
+                height: 40em;
+                background-color: white;
+                box-shadow: $main-box-shadow;
+
+                .login-header-content{
+                    position: absolute;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 8px 12px;
+                    width: 100%;
+
+                    h1{
+                        position: relative;
+                        color: $main-color;
+                        font-size: 22px;
+
+                        &::before{
+                            color: white;
+                            position: absolute;
+                            left: 2px;
+                            font-weight: 600;
+                            content: "MagDesign";
+                        }
+                    }
+
+                    nav{
+
+                        button{
+                            padding: 6px 14px;
+                            border-radius: 4px;
+                            background-color: $main-color;
+                            border: none;
+                            box-shadow: $main-box-shadow;
+
+                            a{
+                                font-weight: 300;
+                                font-size: 14px;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+                .login{
+                    display: flex;
+                    width: 100%;
+                    height: 100%;
+
+                    .img-content{
+                        display: flex;
+                        width: 50%;
+                        height: 100%;
+                        
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    form{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        width: 50%;
+
+                        h1{
+                            margin-bottom: 1em;
+                        }
+
+                        label{
+                            padding: 6px 8px;
+                            border: 1px solid $gray-color;
+                            margin: 10px 0;
+                            border-radius: 4px;
+
+                            i{
+                                margin-right: 10px;
+                            }
+
+                            input{
+                                outline: none;
+                                height: 20px;
+                                width: 31em;
+                                border: none;
+
+                                &::placeholder{
+                                    font-size: 10px;
+                                    font-weight: 300;
+                                }
+                            }
+                        }
+
+                        .forgot-password{
+                            width: 28em;
+                            display: flex;
+                            margin: 20px 0;
+
+                            a{
+                                margin-left: auto;
+                            }
+                        }
+
+                        button{
+                            color: white;
+                            font-size: 16px;
+                            padding: 6px 20px;
+                            border-radius: 4px;
+                            background-color: $main-color;
+                            border: none;
+                            box-shadow: $main-box-shadow;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    body{
+
+        .site-content{
+    
+            .main-content{
+    
+                .login-content{
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 660px){
+
+}
